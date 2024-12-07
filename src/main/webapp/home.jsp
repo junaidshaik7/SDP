@@ -1,4 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+`<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -219,7 +219,6 @@
         <div class="logo">Portfolio Tracker</div>
         <div class="nav-buttons">
             <a href="#loginModal" class="nav-btn">Login</a>
-            <a href="#signupModal" class="nav-btn">Sign Up</a>
         </div>
     </nav>
 
@@ -256,16 +255,5 @@
         </div>
     </div>
 
-    <!-- Signup Modal -->
-    <div id="signupModal" class="modal">
-        <div class="modal-content">
-            <h2>Sign Up</h2>
-            <div class="modal-buttons">
-                <a href="stdreg">Student Sign Up</a>
-              
-            </div>
-            <a href="#" class="close-btn">&times;</a>
-        </div>
-    </div>
 </body>
 </html>
